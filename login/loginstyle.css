@@ -28,7 +28,7 @@ html,body {
 		background-repeat: no-repeat;
 		background-position: left bottom;
 		background-size: 500px;
-		background-image: url("images/login.png");
+		background-image: src("images/login.png");
 	}
 	
 	.masuk {
