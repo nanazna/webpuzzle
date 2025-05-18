@@ -33,10 +33,10 @@ html,body {
 	
 	.masuk {
 		position: absolute;
-		top: 80%;
-		left: 80%;
+		top: 50%;
+		left: 50%;
 		-webkit-transform: translate(-50%, -50%);
-		width: 80%;
+		width: 65%;
 		z-index: 5;
 		-webkit-transition: all .3s ease;
 		
