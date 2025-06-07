@@ -821,6 +821,7 @@ input.email_text::placeholder {
 
 .smGlobalBtn {
     /* global button class */
+    font-size: 25px;
     display: inline-block;
     position: relative;
     cursor: pointer;
@@ -829,10 +830,9 @@ input.email_text::placeholder {
     padding: 0px;
     text-decoration: none;
     text-align: center;
-    color: #fff;
-    font-size: 25px;
+    color: #ffffff;
     font-weight: normal;
-    line-height: 2em;
+    line-height: 50px;
     border-radius: 27px;
     -moz-border-radius: 27px;
     -webkit-border-radius: 27px;
