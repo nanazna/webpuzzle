@@ -848,8 +848,7 @@ input.email_text::placeholder {
 .facebookBtn:before {
     /* use :before to add the relevant icons */
     font-family: "FontAwesome";
-    content: "\f09a";
-    /* add facebook icon */
+    content: none;
 }
 
 .facebookBtn:hover {
