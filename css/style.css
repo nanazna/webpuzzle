@@ -862,55 +862,55 @@ a.facebookBtn.smGlobalBtn.active {
 }
 
 
-/* twitter button class*/
+/* x button class*/
 
-.twitterBtn {
+.xBtn {
     background: #171717;
 }
 
-.twitterBtn:before {
+.xBtn:before {
     font-family: "FontAwesome";
     content: "\f099";
-    /* add twitter icon */
+    /* add x icon */
 }
 
-.twitterBtn:hover {
+.xBtn:hover {
     color: #fff;
     background: #7c2c0c;
 }
 
 
-/* google plus button class*/
+/* instagram button class*/
 
-.googleplusBtn {
+.instagramBtn {
     background: #171717;
 }
 
-.googleplusBtn:before {
+.instagramBtn:before {
     font-family: "FontAwesome";
     content: "\f0d5";
-    /* add googleplus icon */
+    /* add instagram icon */
 }
 
-.googleplusBtn:hover {
+.instagramBtn:hover {
     color: #fff;
     background: #7c2c0c;
 }
 
 
-/* linkedin button class*/
+/* youtube button class*/
 
-.linkedinBtn {
+.youtubeBtn {
     background: #171717;
 }
 
-.linkedinBtn:before {
+.youtubeBtn:before {
     font-family: "FontAwesome";
     content: "\f0e1";
-    /* add linkedin icon */
+    /* add youtube icon */
 }
 
-.linkedinBtn:hover {
+.youtubeBtn:hover {
     color: #fff;
     background: #7c2c0c;
 }
