@@ -575,6 +575,8 @@ button {
     position: absolute;
     left: 615px;
     top: 110%;
+    background-color: #7c2c0c;
+    color: #ffffff;
 }
 
 #my_slider .carousel-control-prev,
