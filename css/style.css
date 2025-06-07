@@ -870,8 +870,7 @@ a.facebookBtn.smGlobalBtn.active {
 
 .xBtn:before {
     font-family: "FontAwesome";
-    content: "\f099";
-    /* add x icon */
+    content: none;
 }
 
 .xBtn:hover {
@@ -888,8 +887,7 @@ a.facebookBtn.smGlobalBtn.active {
 
 .instagramBtn:before {
     font-family: "FontAwesome";
-    content: "\f0d5";
-    /* add instagram icon */
+    content: none;
 }
 
 .instagramBtn:hover {
@@ -906,8 +904,7 @@ a.facebookBtn.smGlobalBtn.active {
 
 .youtubeBtn:before {
     font-family: "FontAwesome";
-    content: "\f0e1";
-    /* add youtube icon */
+    content: none;
 }
 
 .youtubeBtn:hover {
