@@ -522,6 +522,26 @@ button {
     border: transparent;
 }
 
+.box_main.no-buy {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_main.no-buy .image_5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.box_main.no-buy .image_5 img {
+  max-width: 100%;
+  min-height: 700px;
+  object-fit: contain;
+}
+
 .chair_text {
     width: 100%;
     font-size: 18px;
