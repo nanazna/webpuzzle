@@ -539,8 +539,6 @@ button {
     align-items: center;
     padding-top: 30px;
     min-height: 30px;
-    border: 1px solid #aa7662;
-    box-sizing: border-box;
 }
 
 .image_3 img {
@@ -559,8 +557,6 @@ button {
     align-items: center;
     padding-top: 30px;
     min-height: 30px;
-    border: 1px solid #aa7662;
-    box-sizing: border-box;
 }
 
 .image_4 img {
