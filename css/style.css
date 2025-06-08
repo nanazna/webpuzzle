@@ -533,14 +533,14 @@ button {
 
 .image_3 {
     width: 235px;
-    margin: 0 auto 20px auto;
-    border: 1px solid #aa7662;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
     padding-top: 30px;
     min-height: 30px;
+    border: 1px solid #aa7662;
+    box-sizing: border-box;
 }
 
 .image_3 img {
@@ -548,18 +548,19 @@ button {
   max-height: 100%;
   height: auto;
   display: block;
+    border: none;
 }
 
 .image_4 {
     width: 235px;
-    margin: 0 auto 20px auto;
-    border: 1px solid #aa7662;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
     padding-top: 30px;
     min-height: 30px;
+    border: 1px solid #aa7662;
+    box-sizing: border-box;
 }
 
 .image_4 img {
@@ -567,6 +568,7 @@ button {
   max-height: 100%;
   height: auto;
   display: block;
+    border: none;
 }
 
 .buy_bt {
@@ -577,7 +579,8 @@ button {
 }
 
 .buy_bt a {
-    display: block;
+    display: inline-block;
+    width: 100%;
     font-size: 18px;
     color: #ffffff;
     background-color: #7c2c0c;
