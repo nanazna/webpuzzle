@@ -507,8 +507,14 @@ button {
 
 .box_main {
     width: 100%;
+    min-height: 540px;
     border: 1px solid #aa7662;
     padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
 }
 
 .box_main:hover {
@@ -526,36 +532,60 @@ button {
 }
 
 .image_3 {
-    width: 100%;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.image_4 {
     width: 235px;
-    text-align: center;
+    margin: 0 auto 20px auto;
+    border: 1px solid #aa7662;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
     padding-top: 30px;
     min-height: 30px;
 }
 
+.image_3 img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  display: block;
+}
+
+.image_4 {
+    width: 235px;
+    margin: 0 auto 20px auto;
+    border: 1px solid #aa7662;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 30px;
+    min-height: 30px;
+}
+
+.image_4 img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  display: block;
+}
+
 .buy_bt {
-    width: 170px;
+    width: 235px;
     margin: 0 auto;
     text-align: center;
     padding-top: 30px;
 }
 
 .buy_bt a {
-    width: 100%;
+    display: block;
     font-size: 18px;
     color: #ffffff;
     background-color: #7c2c0c;
-    padding: 8px 25px;
+    padding: 8px 0;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 40px;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .buy_bt a:hover {
