@@ -567,6 +567,21 @@ button {
     border: none;
 }
 
+.image_5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 30px;
+    padding: 10px;
+}
+
+.image_5 img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
 .buy_bt {
     width: 235px;
     margin: 0 auto;
