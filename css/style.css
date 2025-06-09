@@ -537,7 +537,7 @@ button {
 }
 
 .box_main.no-buy .image_5 img {
-  max-width: 100%;
+  max-width: 235px;
   min-height: 600px;
   object-fit: contain;
 }
